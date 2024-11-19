@@ -30,6 +30,9 @@ export default function StudentTable(props){
                     </tbody>
                 </table>
             </div>
+            <div className="rightDiv">
+                        <Profile stu = {stu}/>
+             </div>
         </div>
     );
 }
