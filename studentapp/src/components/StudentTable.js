@@ -1,6 +1,9 @@
 import '../assests/css/compo.css';
+import Profile from './Profile';
+import {useState} from "react";
 
 export default function StudentTable(props){
+    const [stu,setStu]=useState(props.students[0]);
     return(
         <div className="outerDiv">
             <div className="leftDiv">
