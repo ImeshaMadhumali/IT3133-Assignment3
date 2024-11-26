@@ -13,15 +13,16 @@ export default function StudentTable(props){
     
     return(
         <div className="outerDiv">
-            <div className="leftDiv">
             <div className={`font-${fontSize}`}>
+            <div className="leftDiv">
+            
     <div>
       <h6> Font Size  </h6>
       <button onClick={() => handleFontSizeChange('small')}>S</button>
       <button onClick={() => handleFontSizeChange('medium')}>M</button>
       <button onClick={() => handleFontSizeChange('large')}>L</button>
     </div> 
-    </div>   
+       
                 <table border="1">
                     <thead>
                         <tr>
@@ -47,6 +48,7 @@ export default function StudentTable(props){
                         }
                     </tbody>
                 </table>
+                </div>
             </div>
             <div className="rightDiv">
                         <Profile stu = {stu}/>

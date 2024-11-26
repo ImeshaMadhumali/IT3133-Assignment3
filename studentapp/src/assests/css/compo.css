@@ -25,3 +25,16 @@
 .profile{
     width: 75%;
 }
+
+.font-small {
+    font-size: 12px;
+  }
+  
+  .font-medium {
+    font-size: 18px; /* Default font size */
+  }
+  
+  .font-large {
+    font-size: 22px;
+  }
+  
