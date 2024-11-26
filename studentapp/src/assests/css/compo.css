@@ -38,3 +38,14 @@
     font-size: 22px;
   }
   
+  /* Light Theme */
+.light .outerDiv {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Dark Theme */
+.dark .outerDiv {
+  background-color: #2c2c2c;
+  color: #fff;
+}
